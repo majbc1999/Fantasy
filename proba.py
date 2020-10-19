@@ -38,3 +38,4 @@ dejanbc.dodaj_tocke(dejanbcMAROLI.num(MAROLI))
 #Prištejemo točke in izpis
 
 turnir.izpisi_uporabnike()
+print("Da vidimo ali dela GIT")
