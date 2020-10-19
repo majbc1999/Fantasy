@@ -38,4 +38,11 @@ dejanbc.dodaj_tocke(dejanbcMAROLI.num(MAROLI))
 #Prištejemo točke in izpis
 
 turnir.izpisi_uporabnike()
-print("Da vidimo ali dela GIT")
+top=""
+top1=0
+for uporabnik in turnir.uporabniki:
+    if uporabnik.score > top1:
+        top1 = uporabnik.score
+        top = uporabnik.ime
+niz = "Zmagovalec je: " + top
+print(niz)
