@@ -72,7 +72,7 @@ input {
     </td> 
 
     <td>
-        <form action="/prijava/" method="post">
+        <form action="/registracija/<username>/<password>/<password2>/" method="post">
             <label>uporabniško ime: </label><input name="ime" type="text"><br>
             <br>
             <label>geslo: </label><input name="password" type="password"><br>
