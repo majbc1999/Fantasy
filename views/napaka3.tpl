@@ -21,7 +21,7 @@ td {
 </style>
 
 <p>
-    <b><i> Oprostite, to uporabniško ime je že zasedeno. Prosimo, izberite novega.</i></b><br>
+    <b><i> Uporabniško ime in geslo se ne ujemata. Prosimo, poskusite znova.</i></b><br>
 </p>
 
 <table>

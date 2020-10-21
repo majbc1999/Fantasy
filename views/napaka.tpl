@@ -5,7 +5,19 @@ p {
     color: crimson;
     text-align: center;
 }
-
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+th {
+    text-align: center;
+}
+td {
+  text-align: center;
+  width: 25%;
+  vertical-align: text-top;
+}
 </style>
 
 <p>

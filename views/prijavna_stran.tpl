@@ -62,8 +62,8 @@ input {
 
 <tr>
     <td>
-        <form action="/prijava/" method="post">
-            <label>uporabniško ime: </label><input name="ime" type="text"><br>
+        <form action="/main/" method="post">
+            <label>uporabniško ime: </label><input name="username" type="text"><br>
             <br>
             <label>geslo: </label><input name="password" type="password"><br>
             <br>
