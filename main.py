@@ -44,16 +44,16 @@ class Napoved:
                 if ((self.ekipa1 - self.ekipa2 > 0 and tekma.goli1 - tekma.goli2 > 0) or
                     (self.ekipa1 - self.ekipa2 < 0 and tekma.goli1 - tekma.goli2 < 0) or
                     (self.ekipa1 - self.ekipa2 == 0 and tekma.goli1 - tekma.goli2 == 0)):
-                    tocke += 10
+                    tocke += 15
                 #točni goli ene ekipe:
                 if (self.ekipa1 == tekma.goli1 or self.ekipa2 == tekma.goli2):
-                    tocke += 15
+                    tocke += 10
                 #točna razlika v golih:
                 if (self.ekipa1 - self.ekipa2 == tekma.goli1 - tekma.goli2):
                     tocke += 20
                 #točno število vseh zadetkov:
                 if (self.ekipa1 + self.ekipa2 == tekma.goli1 + tekma.goli2):
-                    tocke += 10
+                    tocke += 5 
                 #goli ene ekipe zgrešeni za 1:
                 if (self.ekipa1 - tekma.goli1) in seznam:
                     tocke += 5
@@ -61,7 +61,7 @@ class Napoved:
                     tocke += 5
                 #razlika zgrešena za 1:
                 if (self.ekipa1 - self.ekipa2 -  (tekma.goli1 - tekma.goli2)) in seznam:
-                    tocke += 5
+                    tocke += 10
                 #število zadetkov zgrešeno za 1:
                 if (self.ekipa1 + self.ekipa2 - (tekma.goli1 + tekma.goli2)) in seznam:
                     tocke += 5
