@@ -16,3 +16,13 @@ def preveri(username):
             if data["username"]==username:
                 return False
         return True
+
+def ustrezno(username, password):
+    with open('data.txt') as datoteka:
+        for vrstica in datoteka:
+            json_file = vrstica.rstrip()
+            data = json.loads(json_file)
+            if data["username"]==username:
+                if data["password"]==password:
+                    return True
+        return False
