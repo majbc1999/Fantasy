@@ -1,2 +1,7 @@
 {"username": "roman", "password": "123"}
 {"username": "tomaz", "password": "tomo"}
+{"username": "dejanbc", "password": "123456"}
+{"username": "maj", "password": "jam"}
+{"username": "kkkkk", "password": "MajMaj654"}
+{"username": "janjagab", "password": "majcek77"}
+{"username": "ziva.gaberscek", "password": "blablabla"}
